@@ -4,10 +4,16 @@ html, body {
   height: 100%;
 }
 
+body {
+  background: lightgray;
+  background: linear-gradient(to right, #c3c3c3, #eaeaea);
+}
+
 #page-content {
   display: flex;
   flex: 1 0 auto;
-  background-color: lightgrey;
+  // background-color: lightgrey;
+  
   align-items: center;
 }
 
