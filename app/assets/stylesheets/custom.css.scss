@@ -1,2 +1,43 @@
 @import 'bootstrap/dist/css/bootstrap';
 
+html, body {
+  height: 100%;
+}
+
+#page-content {
+  display: flex;
+  flex: 1 0 auto;
+  background-color: lightgrey;
+  align-items: center;
+}
+
+.navbar {
+  background-color: black !important;
+}  
+  
+.nav-link {
+  color: white !important;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#home-container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.jumbotron {
+  padding-top: 15%;
+  background-image: asset-url('home_jumbotron_pencil.jpg');
+  background-position: center 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
